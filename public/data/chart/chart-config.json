@@ -1,0 +1,295 @@
+{
+  "trigger": {
+    "show": false,
+    "triggerName": "test",
+    "triggerFn": "/*value 为数值 key 为字段值*/ \nRelation.trigger('test')"
+  },
+  "listener": {
+    "show": false,
+    "listenerName": "test",
+    "listenerFn": "/*Relation为观察者使用key value;*/\nElement.filterDataByKeys(filterKeys, dbType) "
+  },
+  "title": {
+    "text": "",
+    "subtext": "",
+    "show": false,
+    "x": "left",
+    "y": "top",
+    "textAlign": "left",
+    "backgroundColor": "rgba(0,0,0,0)",
+    "borderWidth": 0,
+    "itemGap": 4,
+    "textStyle": {
+      "color": "#333",
+      "fontSize": 16,
+      "fontFamily": "Hiragino Sans GB,sans-serif",
+      "align": "center",
+      "baseline": "middle"
+    },
+    "subtextStyle": {
+      "color": "#585858",
+      "fontSize": 12,
+      "fontFamily": "Hiragino Sans GB,sans-serif",
+      "align": "center",
+      "baseline": "middle"
+    }
+  },
+  "legend": {
+    "show": false,
+    "selecteMode": "multiple",
+    "x": "center",
+    "y": "top",
+    "orient": "horizontal",
+    "backgroundColor": "rgba(0,0,0,0)",
+    "borderWidth": 0,
+    "borderColor": "#ccc",
+    "padding": 5,
+    "itemWidth": 20,
+    "itemHeight": 14,
+    "itemGap": 10,
+    "textStyle": {
+      "color": "#333",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontFamily": "Hiragino Sans GB,sans-serif",
+      "fontWeight": "normal",
+      "align": "center",
+      "baseline": "middle"
+    },
+    "data": []
+  },
+  "toolbox": {
+    "show": false,
+    "feature": {
+      "mark": {
+        "show": false
+      },
+      "restore": {
+        "show": true
+      },
+      "saveAsImage": {
+        "show": true
+      }
+    },
+    "x": "right",
+    "y": "center",
+    "orient": "vertical",
+    "borderWidth": 0,
+    "borderColor": "#ccc",
+    "padding": 5,
+    "itemSize": 16,
+    "itemGap": 10,
+    "showTitle": true,
+    "textStyle": {
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "Hiragino Sans GB,sans-serif"
+    }
+  },
+  "grid": {
+    "show": false,
+    "x": 45,
+    "y": 30,
+    "x2": 30,
+    "y2": 30,
+    "borderWidth": 0,
+    "borderColor": "#ccc",
+    "backgroundColor": "rgba(0, 0, 0, 0)"
+  },
+  "backgroundColor": "#fff",
+  "calculable": false,
+  "tooltip": {
+    "trigger": "item",
+    "show": false,
+    "backgroundColor": "rgba(0,0,0,0.85)",
+    "borderWidth": 0,
+    "borderColor": "#333",
+    "borderRadius": 4,
+    "padding": 15,
+    "showDelay": 20,
+    "hideDelay": 100,
+    "transitionDuration": 0.4,
+    "textStyle": {
+      "color": "#fff",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "fontFamily": "Hiragino Sans GB,sans-serif",
+      "align": "left",
+      "baseline": "middle"
+    },
+    "axisPointer": {
+      "type": "line",
+      "lineStyle": {
+        "color": "#48b",
+        "width": 2,
+        "type": "solid"
+      },
+      "areaStyle": {
+        "type": "default",
+        "color": "#1DBB37"
+      }
+    }
+  },
+  "xAxis": [
+    {
+      "show": true,
+      "axisLine": {
+        "lineStyle": {
+          "color": "#777",
+          "width": 2,
+          "type": "solid"
+        },
+        "show": true,
+        "onZero": true
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "rgba(119, 119, 119, 0.5)",
+          "width": 1,
+          "type": "dashed"
+        },
+        "show": true
+      },
+      "axisTick": {
+        "show": false,
+        "interval": "auto",
+        "inside": false,
+        "length": 5,
+        "lineStyle": {
+          "color": "#333",
+          "width": 1
+        }
+      },
+      "axisLabel": {
+        "show": true,
+        "interval": "auto",
+        "rotate": 0,
+        "margin": 8,
+        "textStyle": {
+          "color": "#333",
+          "fontFamily": "微软雅黑, Arial, Verdana, sans-serif",
+          "decoration": "none",
+          "fontFamily2": "微软雅黑",
+          "fontSize": 12,
+          "fontStyle": "normal",
+          "fontWeight": "normal"
+        }
+      },
+      "splitArea": {
+        "show": false,
+        "areaStyle": {
+          "color": [
+            "rgba(250,250,250,0.3)",
+            "rgba(200,200,200,0.3)"
+          ]
+        }
+      }
+    }
+  ],
+  "yAxis": [
+    {
+      "show": true,
+      "axisLine": {
+        "lineStyle": {
+          "color": "#777",
+          "width": 2,
+          "type": "solid"
+        },
+        "show": true,
+        "onZero": true
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "rgba(119, 119, 119, 0.5)",
+          "width": 1,
+          "type": "dashed"
+        },
+        "show": true
+      },
+      "axisTick": {
+        "show": false,
+        "interval": "auto",
+        "inside": false,
+        "length": 5,
+        "lineStyle": {
+          "color": "#333",
+          "width": 1
+        }
+      },
+      "axisLabel": {
+        "show": true,
+        "interval": "auto",
+        "rotate": 0,
+        "margin": 8,
+        "textStyle": {
+          "color": "#333",
+          "fontFamily": "微软雅黑, Arial, Verdana, sans-serif",
+          "decoration": "none",
+          "fontFamily2": "微软雅黑",
+          "fontSize": 12,
+          "fontStyle": "normal",
+          "fontWeight": "normal"
+        }
+      },
+      "splitArea": {
+        "show": false,
+        "areaStyle": {
+          "color": [
+            "rgba(250,250,250,0.3)",
+            "rgba(200,200,200,0.3)"
+          ]
+        }
+      }
+    }
+  ],
+  "connections": "",
+  "map": {
+    "itemStyle": {
+      "show": true,
+      "normal": {
+        "color": "#ccc",
+        "barBorderColor": "",
+        "barBorderWidth": [],
+        "borderWidth": "2",
+        "borderColor": "#c0f",
+        "lineStyle": {
+          "color": "#c0f",
+          "type": "",
+          "width": "3",
+          "shadowColor": "",
+          "shadowBlur": 2,
+          "shadowOffsetX": 3,
+          "shadowOffsetY": 2
+        },
+        "areaStyle": {
+          "color": "#ccc",
+          "type": "default"
+        },
+        "chordStyle": {
+          "width": "",
+          "color": "",
+          "borderWidth": "",
+          "borderColor": ""
+        },
+        "nodeStyle": {
+          "color": "",
+          "borderColor": "",
+          "borderWidth": 1
+        },
+        "linkStyle": {
+          "type": "line",
+          "color": "",
+          "width": 1
+        },
+        "label": {},
+        "labelLine": {}
+      },
+      "emphasis": {}
+    },
+    "mapType": "china",
+    "minAlpha": 10,
+    "show": false
+  }
+}

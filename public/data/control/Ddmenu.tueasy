@@ -1,0 +1,106 @@
+{
+    "type": "Ddmenu",
+    "columns": {
+        "col": {
+            "name": "数据",
+            "dataType": "string",
+            "count": 1,
+            "data": {},
+            "md5": "",
+            "tableName": "",
+            "primary": false,
+            "useMethod": {},
+            "methods": [{
+                "type": "NONE",
+                "name": "无"
+            }, {
+                "type": "MAX",
+                "name": "最大"
+            }, {
+                "type": "MIN",
+                "name": "最小"
+            }, {
+                "type": "SUM",
+                "name": "求和"
+            }, {
+                "type": "AVG",
+                "name": "求平均"
+            }]
+        }
+    },
+    "trigger": {
+        "show": true,
+        "triggerName": "test",
+        "triggerFn": "console.log('click')"
+    },
+    "listener": {
+        "show": false,
+        "listenerName": "test",
+        "listenerFn": ""
+    },
+    "currentSelect": 3,
+    "currentName": "2012年",
+    "returnValue": {
+
+    },
+    "series": [{
+        "key": "year",
+        "name": "2015年"
+    }, {
+        "key": "year",
+        "name": "2014年"
+    }, {
+        "key": "year",
+        "name": "2013年"
+    }, {
+        "key": "year",
+        "name": "2012年"
+    }, {
+        "key": "year",
+        "name": "2011年"
+    }],
+    "textStyle": {
+        "color": "#ccc",
+        "fontSize": 20,
+        "fontFamily": "Hiragino Sans GB",
+        "textAlign": "center"
+    },
+    "conStyle": {
+        "height": "54px"
+    },
+    "inputStyle": {
+        "backgroundColor": "#2d3446",
+        "color": "#cccccc",
+        "textIndent": "0px",
+        "textAlign": "center"
+    },
+    "dropDownButton": {
+        "right": "8px",
+        "fontSize": 20,
+        "marginTop": -10
+    },
+    "dropDownOption": {
+        "minHeight": "40px",
+        "textIndent": "0px"
+    },
+    "dropDown": {
+        "normal": {
+            "backgroundColor": "#2d3446",
+            "minHeight": "40px",
+            "textIndent": "0px",
+            "height": "20%"
+        },
+        "mouse": {
+            "backgroundColor": "rgba(0, 5, 31, 0.65)",
+            "minHeight": "40px",
+            "textIndent": "0px",
+            "height": "20%"
+        },
+        "emphasis": {
+            "backgroundColor": "#00051f",
+            "minHeight": "40px",
+            "textIndent": "0px",
+            "height": "20%"
+        }
+    }
+}
